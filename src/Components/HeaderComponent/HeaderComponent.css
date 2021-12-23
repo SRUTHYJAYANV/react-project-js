@@ -1,0 +1,41 @@
+:root{
+    --darkBlue: #212842;
+    --white: #FFFFFF;
+    --lightBlue: #f5f5fc;
+    --orange: #FD521A;
+}
+header{
+    box-shadow: none !important;
+}
+.header-section{
+    min-height: 0 !important;
+    background-color: var(--lightBlue);
+    padding: 24px 48px !important;
+    backdrop-filter: blur(50px);
+    -webkit-backdrop-filter: blur(50px);
+}
+.header_logo a{
+    font: bold 20px/24px "Interstate" !important;
+    letter-spacing: 0px !important;
+    color: var(--darkBlue);
+    text-decoration: none;
+}
+.header_links{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin: 0 -48px;
+}
+.header_links li{
+    color: var(--darkBlue);
+    text-align: left;
+    font: normal 18px/20px "Interstate" !important;
+    letter-spacing: 0px;
+    margin: 0 48px;
+}
+.header_links li.active{
+    color: var(--orange);
+}
+.form-container {
+    padding: 10%;
+}

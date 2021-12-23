@@ -1,0 +1,11 @@
+.homepage_container{
+    min-height: calc(100vh - 84px);
+} 
+.homepage_banner img{
+    width: 100%;
+    max-width: 500px;
+    height: 512px;
+}
+.image-container {
+    background-image: url('./../../Assets/images/home.jpg') repeat 0 0;;
+}
